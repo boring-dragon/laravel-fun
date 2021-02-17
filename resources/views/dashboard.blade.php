@@ -11,6 +11,9 @@
                 <div class="p-6 bg-white border-b border-gray-200">
                    @admin
                         <h3>Hello! Admin 🔥🔥</h3>
+
+                        @else
+                        <h3>Hello your not an admin boii. Get out!</h3>
                    @endadmin
                 </div>
             </div>
